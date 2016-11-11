@@ -3,15 +3,16 @@
 #include <iostream>
 #include <string>
 
-void consolePrint(std::string inputString)
+void consolePrint(std::string inputString) //"\n" makes it go to next line
 {
  std::cout << inputString << "\n";
 }
 
 int main()
 {
- std::cout << "Hello world\n";
+ //the main function code, code will begin to be executed here
+ std::cout << "Hello world\n"; //
  consolePrint("Hello world");
- std::cin.get();
+ std::cin.get(); //this makes the program pause, waits for you to press enter
   return 0;
 }
