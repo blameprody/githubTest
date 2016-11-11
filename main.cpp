@@ -12,8 +12,9 @@ void consolePrint(std::string inputString) //this functions prints something to 
 //this is the main fuinction
 int main()
 {
- std::cout << "Hello world\n";
+ //the main function code, code will begin to be executed here
+ std::cout << "Hello world\n"; //
  consolePrint("Hello world");
- std::cin.get();
+ std::cin.get(); //this makes the program pause, waits for you to press enter
   return 0;
 }
