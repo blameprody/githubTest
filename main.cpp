@@ -3,7 +3,7 @@
 #include <iostream>
 #include <string>
 
-void consolePrint(std::string inputString) //"\n" makes it go to next line
+void consolePrint(std::string inputString)
 {
  std::cout << inputString << "\n";
 }
